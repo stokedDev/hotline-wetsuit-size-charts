@@ -27,6 +27,10 @@ body{
     font-weight: 700;
   }
 
+  .t-title{
+    font-weight: 300;
+  }
+
   td{
     padding: .3rem .67rem;
     font-weight: 300;
