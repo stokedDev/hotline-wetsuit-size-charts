@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  table,
+  th,
+  tr,
+  td{
+    border: 1px black solid;
+    border-collapse: collapse;
+  }
+
+  table{
+    table-layout: fixed;
+    font-size: 1.2rem;
+  }
+
+  caption{
+    font-size: 1.1rem;
+  }
+
+  th{
+    font-weight: 700;
+  }
+
+  td{
+    padding: .5rem .67rem;
+    font-weight: 300;
+    text-align: center;
+  }
+
+  tfoot tr,
+  tfoot tr td{
+    border: none;
+    width: 290px;
+    font-weight: 300;
+  }
+  tfoot tr td{
+      text-align: left;
+  }
